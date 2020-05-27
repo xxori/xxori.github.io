@@ -77,13 +77,16 @@ a:hover{
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 32px;
     width: 100%;
     background-color: #464863;
     color: whitesmoke;
     text-align: center;
+    vertical-align: middle;
 }
 
 .footer p {
       font-size: 24px;
   }
+
+
