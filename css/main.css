@@ -50,15 +50,23 @@ a:hover{
     animation-iteration-count: infinite;
 }
 .image {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.funny {animation: bseizure 10ms infinite;}
 #blursed {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+@keyframes bseizure {
+    0% {background-color: blue;}
+    50% {background-color: red;}
+    100% {background-color: green;}
 }
 @keyframes seizure {
     0% {color: blue}
