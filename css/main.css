@@ -1,5 +1,5 @@
  * {
-    font-family: serif sans-serif;
+    font-family: 'Segoe UI', serif, sans-serif;
     background-color: #63657F;
 }
 .container{
@@ -15,7 +15,7 @@ nav{float:right;}
   
 .container ul li{
     display: inline-block; padding:10px;
-    font-size:32px; font-family:raleway;
+    font-size:32px; font-family:"Segoe UI";
     background-color: #464863;  
 }
   
@@ -41,7 +41,7 @@ a:hover{
 }
 
 .SEX {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, sans-serif;
     font-size: 100px;
     color : blue;
     text-align: center;
