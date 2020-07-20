@@ -1,86 +1,93 @@
- * {
-    font-family: 'Segoe UI', serif, sans-serif;
-    background-color: #63657F;
- }
-.container{
-    clear:both;
-    overflow:auto;
-    background-color: #464863;
-    color: whitesmoke;
-}
- 
-nav{float:right;}
-.container a{background-color:#464863;text-decoration: none;}
-.logo img{float:left;background-color: #464863;}
-  
-.container ul li{
-    display: inline-block;
-    padding:10px;
-    font-size:32px;
-    font-family:"Segoe UI";
-    background-color: #464863;  
-}
-  
-/*ul li:hover{
-    color:orange;
-}*/
+@import "/css/animations.css";
 
-.container ul{
-    padding: 0px;
-    margin: 0px;
-    float: right;
-    vertical-align: top;
+@font-face {
+    font-family: Clip;
+    src: url("/ttf/Clip.ttf") format("truetype");
 }
 
-a:link{
-    color: whitesmoke;
-}
-a:visited{
-    color: whitesmoke;
-}
-a:hover{
-    color: #a6e7ed;
-}
-
-.bruh {
-    font-family: Impact, sans-serif;
-    font-size: 100px;
-    color : blue;
-    text-align: center;
-    animation: seizure 10ms infinite;
+body {
+    background-color: #141114;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 }
 
-#blursed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-@keyframes bseizure {
-    0% {background-color: blue;}
-    50% {background-color: red;}
-    100% {background-color: green;}
-}
-@keyframes seizure {
-    0% {color: blue}
-    50% {color: red}
-    100% {color: green}
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 32px;
-    width: 100%;
-    background-color: #464863;
-    color: whitesmoke;
-    text-align: center;
-    vertical-align: middle;
+.sign {
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+  -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+  0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  top: 15%;
+  font-family: "Clip";
+  font-size: 5em;
+  text-transform: uppercase;
+  color: #ffe6ff;
+  animation: shine 2s forwards, flicker 3s infinite;
+  background-image: radial-gradient(ellipse 50% 50% at 50% 50%,#6b1839, transparent);
 }
 
-.footer p {
-      font-size: 24px;
-  }
+.sign img {
+  margin-right: 10px;
+  vertical-align: center;
+}
 
+.sign ul {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  background-image: radial-gradient(ellipse 50% 50% at 50% 50%,#6b1839, transparent);
+}
+
+.sign ul li {
+  margin-bottom: 2%;
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+a {color: #ffe6ff; text-decoration: none}
+a:visited {color: #ffe6ff}
+a:hover {color: #ffe6ff}
+a:active {color: #ffe6ff}
+a:focus {color: #ffe6ff}
+
+.bottomText{
+  text-align: center;
+  margin-top: 45%;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
 
