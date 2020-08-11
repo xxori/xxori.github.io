@@ -1,41 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>xxori</title>        
-  <meta charset="UTF-8"/>
-  <link rel="stylesheet" type="text/css" href="css/main.css"/>
-  <meta name="viewport" content="width=device-width"/>
-  <link rel="icon" href="img/favicon.png"/>
-  <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"-->
-</head>
+  <head>
+    <title>xxori</title>        
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" href="img/favicon.png"/>
+  </head>
 
-<body>
-    <div class="sign" style="left:51%">
-      <h2>or<span class="fast-flicker">i</span></h2>
+  <body>
+    <div class="bar">
+      <a href="/"><h1>xori</h1></a>
     </div>
-    <div class="sign" style="top: 55%; font-size: 2em; left: 50%">
-      <ul>
-        <li><img src="img/discord.png" width=3%/><span id="discord">discord</span></li>
-        <li><img src="img/steam.png" width=3%/><a href="https://steamcommunity.com/profiles/76561198379001790" target="_blank">ste<span class="flicker">a</span>m</a></li>
-        <li><img src="img/github.png"width=3%/><a href="https://github.com/xxori" target="_blank">github</a></li>
-        <li><img src="img/bnet.png" width=3%/><span id="bnet"><span class="fast-flicker">ba</span>ttle.net</span></li>
-        <li><img src="img/riot.png" width=3%/><span id="riot">riot games</span></li>
-      </ul>
+    <div style="animation: fadein ease 5s ; text-align: center; margin-top: 10%;">
+      <h2>Student, gamer, sometimes developer</h2>
+      <p style="font-size: 1.5em">Check out my <a href="https://github.com/xxori">Github</a><br>Contact me on my discord (_oree#2930) or <a href="mailto:ori@xori.ninja">email</a></p>
     </div>
-    <div class="bottomText"><p>Watch this space, Planning more stuff</p></div>
-</body>
-<script>
-  function discord () {
-    document.getElementById("discord").textContent = "_oree#2930"
-  }
-  function bnet () {
-    document.getElementById("bnet").textContent = "Croe#11561"
-  }
-  function riot () {
-    document.getElementById("riot").textContent = "Orij56#3838"
-  }
-  document.getElementById("discord").onclick = discord;
-  document.getElementById("bnet").onclick = bnet;
-  document.getElementById("riot").onclick = riot;
-</script>
+  </body>
 </html>
