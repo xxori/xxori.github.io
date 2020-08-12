@@ -40,9 +40,11 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: #268bd2;
+  text-decoration: underline;
+  color: #2aa198;
 }
+
+.bar a {text-decoration: none;}
 
 @keyframes fadein {
   0% {opacity: 0}
