@@ -1,19 +1,31 @@
-<head>
-    <title>xxori</title>        
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <meta name="viewport" content="width=device-width"/>
-    <link rel="icon" href="img/favicon.png"/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ori</title>
+    <link rel="stylesheet" href="style/typeface.css">
+    <link rel="stylesheet" href="style/index.css">
   </head>
 
   <body>
-    <div class="bar">
-      <a href="/"><h1>xori</h1></a>
+    <div id="content">
+      <p id="header">
+        xxori
+      </p>
+      <p>Making things</p>
+      <a href="https://github.com/xxori" title="Github">
+        <img src="../res/img/github.png" width=32 height=32>
+      </a>
+      <a href="javascript:void(420) //Hey Man" title="Discord">
+        <img src="../res/img/discord.png" width=32 height=32 id="discord-button">
+      </a>
+      <p id="discord-name" class="hidden" style="font-size: 20px"><span style="color:#defaf8">@_oree#2930</span><br> or <br><span style="color: #defaf8">308034225137778698</span></p>
     </div>
-    <div style="animation: fadein ease 5s ; text-align: center; margin-top: 10%;">
-      <h3>Patrick Thompson</h3>
-      <h2>Making Things</h2>
-      <p style="font-size: 1.5em">Check out my <a href="https://github.com/xxori">Github</a><br>Contact me on my discord (_oree#2930) or <a href="mailto:xxori@memeware.net">email</a></p>
+    <div class="container">
+      <pre id="donut"></pre>
     </div>
+    <script src="js/button.js"></script>
+    <script src="js/donut.js"></script>
   </body>
 </html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Inconsolata Light';
+    src: url('../res/typeface/Inconsolata-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inconsolata Semibold';
+    src: url('../res/typeface/Inconsolata-SemiBold.woff') format('woff');
+}

@@ -1,0 +1,74 @@
+@import 'typeface.css';
+
+::selection {
+  background: #3d424a;
+}
+
+html,
+body,
+.container {
+  overflow: hidden;
+  background-color: #1c1f24;
+  height: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: absolute;
+  z-index: 0;
+  left: 40%;
+  color: white;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+}
+
+#content {
+    left: 30%;
+    top: 25%;
+    position: absolute;
+    z-index: 5;
+    display: block;
+}
+
+p {
+    font-family: 'Inconsolata Light', monospace;
+    color: whitesmoke;
+    font-size: 32px;
+}
+
+#header {
+    font-family: 'Inconsolata Semibold', monospace;
+    font-size: 64px;
+    user-select: none;
+}
+
+
+
+@keyframes fly-in {
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+.hidden {
+    opacity: 0;
+}
+.transition {
+  opacity: 1;
+  animation: fly-in 1s ease-in;
+}
+
