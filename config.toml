@@ -1,4 +1,77 @@
-baseURL = 'https://xxori.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "PaperModX"
+baseURL = "https://xxori.github.io/"
+title = "ori's channel"
+paginate = 5
+theme = "hugo-PaperMod"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+disableXML = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "ori's channel"
+author = "ori"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+
+  [params.homeInfoParams]
+  Title = "patrick/ori"
+  Content = """
+This is it
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/xxori"
+  
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:ori@kek.church"
+
+  [[params.socialIcons]]
+  name = "discord"
+  url = "https://discord.com/users/308034225137778698"
+
+  [[params.socialIcons]]
+  name = "Rss"
+  url = "index.xml"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
