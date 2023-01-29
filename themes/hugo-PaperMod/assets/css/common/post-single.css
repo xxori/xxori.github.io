@@ -248,7 +248,7 @@
     margin: 8px 0 16px;
 }
 
-.post-content figure > figcaption > p {
+.post-content figure > figcaption > p:not(.gallery *) {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
