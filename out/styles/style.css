@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url(../AtkinsonHyperlegible-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#header {
+  background-color: #3c3836;
+  padding: 10px;
+  text-align: center;
+}
+
+#header * {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: #fabd2f;
+}
