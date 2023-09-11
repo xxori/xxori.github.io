@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xxori.github.io/persuasive/archives/</loc>
+    <loc>https://xxori.github.io/persuasive/posts/money-first-management/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xxori.github.io/persuasive/categories/</loc>
-  </url><url>
-    <loc>https://xxori.github.io/persuasive/posts/money-first-management/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xxori.github.io/persuasive/posts/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xxori.github.io/persuasive/categories/tech/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xxori.github.io/persuasive/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xxori.github.io/persuasive/archives/</loc>
   </url><url>
     <loc>https://xxori.github.io/persuasive/search/</loc>
   </url><url>
     <loc>https://xxori.github.io/persuasive/series/</loc>
   </url><url>
     <loc>https://xxori.github.io/persuasive/tags/</loc>
-  </url><url>
-    <loc>https://xxori.github.io/persuasive/categories/tech/</loc>
-  </url><url>
-    <loc>https://xxori.github.io/persuasive/</loc>
   </url>
 </urlset>
